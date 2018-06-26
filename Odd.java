@@ -1,5 +1,5 @@
 import java.util.*;
-class Pos
+class Odd
 {
     public static void main(String args[])
     {
@@ -7,15 +7,18 @@ class Pos
         int a=s.nextInt();
         if(a>=1&&a<=100000)
         {
-            System.out.println("Positive");
-        }
-        else if(a==0)
-        {
-            System.out.println("Zero");
+          if(a%2==0)
+          {
+              System.out.println("Even");
+          }
+          else
+          {
+              System.out.println("Odd");
+          }
         }
         else
         {
-            System.out.println("Negative");
+            System.out.println("invalid");
         }
     }
 }
