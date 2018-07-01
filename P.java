@@ -8,6 +8,8 @@ class prim
         int a=s.nextInt();
         int k=0,x=0;
         int p=0;
+        if(n<=1000000&&a<=1000000)
+        {
         for(int i=n;i<a;i++)
         {
             int c=0;
@@ -22,6 +24,7 @@ class prim
             {
                 p++;
             }
+        }
         }
         System.out.print(p);
     }
