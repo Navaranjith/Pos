@@ -6,14 +6,11 @@ class ev
         Scanner s=new Scanner(System.in);
         int n=s.nextInt();
         int a=s.nextInt();
-        if(a<=100000)
+        for(int i=n+1;i<a;i++)
         {
-            for(int i=n+1;i<a;i++)
+            if(i%2==0)
             {
-                if(i%2==0)
-                {
-                    System.out.print(i+" ");
-                }
+                System.out.print(i+" ");
             }
         }
     }
