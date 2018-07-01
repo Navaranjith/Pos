@@ -16,7 +16,7 @@ class Pri
                 break;
             }
         }
-        if(t&&n>1000)
+        if(t&&n>=1000)
         {
             System.out.println("yes");
         }
