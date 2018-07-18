@@ -6,7 +6,7 @@ class Repe
         Scanner s=new Scanner(System.in);
         int n=s.nextInt();
         int[] b=new int[n];
-        int x=0,y=0;
+        int x=0,y=0,d=0;
         String r="";
         for(int i=0;i<n;i++)
         {
@@ -31,8 +31,17 @@ class Repe
                 r=r+" ";
             }
             }
-        }
-        System.out.print(r);
+            else
+            d++;
+            }
+            if(d>0)
+            {
+                System.out.print("unique");
+            }
+            else
+            
+            System.out.print(r);
+        
     }
 }
 
