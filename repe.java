@@ -34,14 +34,14 @@ class Repe
             else
             d++;
             }
-            if(d>0)
+            if(d==b.length-1)
             {
                 System.out.print("unique");
             }
             else
-            
+            {
             System.out.print(r);
-        
+            }
     }
 }
 
